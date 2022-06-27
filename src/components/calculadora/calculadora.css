@@ -1,0 +1,403 @@
+.contenedorPadre {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.header {
+    background-color: #8667F0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    margin: 0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+}
+
+.headerImg {
+    height: 30px;
+    margin: 10px;
+}
+
+.tituloApp {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.headerImgMenu {
+    height: 20px;
+    margin: 10px;
+    margin: 0px;
+}
+
+.texto {
+    text-align: start;
+    color: rgb(189, 189, 189);
+    margin: 5px 0px;
+    width: 380px;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+/*//! Contenedor y Formulario */
+.sectionContenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    width: 60%;
+    max-width: 800px;
+}
+
+.contenedor {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    max-height: 600px;
+    border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -ms-border-radius: 0px 0px 20px 20px;
+    -o-border-radius: 0px 0px 20px 20px;
+}
+
+.contenedordos {
+    height: 90%;
+    width: 400px;
+    padding: 30px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formularioContenedor {
+    max-width: 500px;
+    color: white;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+.formulario {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.formularioLabel {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.radioGenero {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.formularioFieldContenedor {
+    width: 100%;
+}
+
+.radiobtn {
+    font-size: 10px;
+}
+
+.fomularioField {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.445);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.fomularioField::placeholder {
+    color: rgb(202, 202, 202);
+}
+
+.displayError {
+    display: flex;
+}
+
+.errorMessage {
+    /* style={{fontSize:'10px',color:'yellow',marginLeft:'10px'}} */
+    font-size: 10px;
+    color: yellow;
+    margin-left: 10px;
+}
+
+.botonCalcular {
+    background-color: #8667F0;
+    color: white;
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border: 0px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.botonCalcular:hover {
+    background-color: #7053cc;
+}
+
+.botonCalcular:disabled {
+    background-color: #45347e;
+}
+
+.botonLimpiar {
+    background-color: #000000;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.botonLimpiar:hover {
+    border: 1px solid rgba(255, 255, 255, 0.795);
+}
+
+
+.graficaContenedor {
+    box-sizing: border-box;
+    height: 50%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloFormulario {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    width: 70%;
+    text-align: start;
+    line-height: 30px;
+    margin: 0px 0px 15px 0px;
+}
+
+.tituloResultado {
+    color: white;
+    width: 80%;
+    margin-left: 0;
+    text-align: start;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.graficaIndicadorContenedor {
+    display: flex;
+    justify-items: center;
+    width: 80%;
+    height: 50px;
+    flex-direction: column;
+}
+
+.graficaIndicadorWidth {
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+.indicadorResultado {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: white;
+}
+
+.indicadorFlecha {
+    height: 20px;
+    margin: 0px;
+    padding: 0;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.gradientContenedor {
+    width: 85%;
+    height: 20%;
+    background: linear-gradient(90deg, rgba(0, 214, 255, 1) 0%, rgba(5, 201, 63, 1) 20%, rgba(255, 238, 0, 1) 53%, rgba(255, 146, 0, 1) 78%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rangosContenedor {
+    position: relative;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+/* //!Rangos para hombres */
+.hombresRangosUno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14%;
+}
+
+.hombresRangosDos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.hombresRangosTres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 5%;
+}
+
+/* //!Rangos para mujeres */
+.mujeresRangosUno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 15.78%;
+}
+
+.mujeresRangosDos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 31.57%;
+}
+
+.mujeresRangosTres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 2.26%;
+}
+
+/*//! Rangos */
+.rangosFontSize {
+    font-size: 10px;
+    margin: 2px 0px;
+    color: white;
+}
+
+.rangoEscencial {
+    background-color: #00D6FA;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rangoDeportista {
+    background-color: #04CB5D;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rangoFitness {
+    background-color: #93DE1B;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rangoAceptable {
+    background-color: #FFCC00;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.rangoObeso {
+    width: 100px;
+    background-color: #FF9200;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/*//! Media */
+
+@media screen and (max-height: 670px) {
+    .contenedor {
+        background-color: black;
+    }
+
+    .fomularioField {
+
+        font-weight: 100;
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        height: 25px;
+        padding: 10px;
+        outline: none;
+
+    }
+}
